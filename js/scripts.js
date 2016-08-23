@@ -37,6 +37,13 @@ $(document).ready(function() {
                                    '<label for="new-state">State</label>' +
                                    '<input type="text" class="form-control new-state">' +
                                  '</div>' +
+                                 '<div class="form-group">'+
+                                   '<select class="form-control" id="address-type">'+
+                                     '<option>Home</option>'+
+                                     '<option>Work</option>'+
+                                     '<option>Other</option>'+
+                                   '</select>'+
+                                 '</div>'+
                                '</div>');
   });
   $("form#new-contact").submit(function(event) {
